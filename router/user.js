@@ -8,7 +8,7 @@ router.post('/reguser', (req, res) => {
 })
 
 // 登陆
-router.post('', (req, res) => {
+router.post('/login', (req, res) => {
   res.send('login OK')
 })
 
